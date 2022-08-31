@@ -1,3 +1,72 @@
-body {
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header-div {
+    background-color: aqua;
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.header-img {
+
+    margin-left: 50px;
+    width: 100px;
+}
+
+.header-text {
+    margin-top: 80px;
+    max-width: 450px;
+    margin-left: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: rgb(234, 22, 7);
+    margin: 20px 0;
+}
+
+
+#header-but {
+    margin-top: 30px;
+}
+
+#s-1 {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: rgb(240, 86, 217);
+    margin: 20px 0;
+}
+
+#s-2 {
+    height: 1px;
+    width: 60px;
+    display: inline-block;
+    background: rgb(240, 86, 217);
+    margin: 2px 0;
+}
+
+#s-3 {
+    height: 1px;
+    width: 40px;
+    display: inline-block;
+    background: rgb(240, 86, 217);
+    margin: 2px 0;
+}
+
+.line {
+    line-height: 0.1cm;
 }
